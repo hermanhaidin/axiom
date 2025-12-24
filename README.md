@@ -1,43 +1,38 @@
 # Axiom
 
-Axiom is a conceptual project exploring how a long-established mobility company could operate in 2050 — after autonomy, AI mediation, and shifting user values have reshaped mobility.
+Axiom is a conceptual project exploring how a long-established mobility company could operate in 2050—after autonomy, AI mediation, and shifting user values have reshaped transportation.
 
-This repository is a design-led thinking space and technical demo, not a production-ready product.
+This repository is a design-led thinking space and technical demo, not a production product.
 
-## Project philosophy
+---
 
-Axiom is built around a few core ideas about how mobility works in 2050.
+## Vision
 
-- Legacy mobility companies behave as quiet infrastructure
-- Vehicles are autonomous and abundant
-- Time, privacy, and cognitive calm are valued more than money
-- AI agents mediate most decisions
-- Trust and reliability replace aggressive marketing
+In 2050, people don't rent vehicles. They describe how they need to move, and the system returns movement stories—orchestrated plans across autonomous fleets, rail, and micro-mobility.
 
-Read more: [Philosophy](docs/PHILOSOPHY.md)
+Axiom is:
+- A guardian of movement for families, workers, and cities
+- An AI-mediated layer that translates messy human intentions into structured plans
+- A custodian of trust in a world of opaque, fully autonomous systems
 
-## Core features
+Read the full vision: **[docs/VISION.md](docs/VISION.md)**
 
-Axiom focuses on experience-first mobility rather than vehicles or ownership.
+---
 
-- People choose experience modes, not car models
-- Modes define interior, behavior, and journey rules
-- Five modes: Focus, Family, Solo, Private, Shared
-- Pricing adapts to urgency, autonomy confidence, and trust
-- Planning ahead reduces system cost and energy usage
-- Guest-first usage with progressive trust over time
+## Documentation
 
-Read more: [Features](docs/FEATURES.md)
+| Document | Purpose |
+|----------|---------|
+| [VISION.md](docs/VISION.md) | Design vision—premise, cast, scenes, system behavior, guardrails |
+| [TECH.md](docs/TECH.md) | Technical scope—stack, implementation approach, constraints |
 
-## Technical overview
+---
 
-Axiom is intentionally scoped as a front-end–focused, local-first demo.
+## Status
 
-- Conceptual project, not a production platform
-- No backend services or real-time integrations
-- Local-first data storage by default
-- Light and dark appearance modes supported
-- System appearance is respected, with manual override
-- Built with a modern React-based frontend stack
+Early concept phase. The demo will include:
+- Single input field for natural language intent
+- Mocked trip plan responses
+- UI for reviewing and confirming movement stories
 
-Read more: [Tech](docs/TECH.md)
+Stack: React, TypeScript, shadcn/ui, Tailwind CSS.
